@@ -229,6 +229,7 @@ header{
       @include span-columns(12);
       background-color: #fff;
       margin-top:30px;
+
       padding: 10px 0 10px 0;
 
       img{
@@ -240,18 +241,108 @@ header{
       //footer//
 
 footer{
-
   @include span-columns(12);
   background-color: #fff;
   margin-top:30px;
   h1{
     font-size: 24px;
     color: #353533;
+    font-weight: normal;
+
   }
   p{
     line-height: 26px;
-    color: #717171;
+    padding-right: 45px;
+    color:#717171;
   }
-
+  footer{
+    @include span-columns(12);
+  }
+  .information{
+    @include span-columns(6 of 12);}
+    padding-left: 44px;
+    padding-top:20px;
+    .socials{
+      font-size: 24px;
+      .fa-facebook{
+      color:#9C9C9C;
+      background-color: #4F4F4F;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding-top: 4px;
+      }
+      .fa-rss{
+      color:#9C9C9C;
+      background-color: #AFAFAF;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding-top: 4px;
+      }
+      .fa-twitter{
+      color:#9C9C9C;
+      background-color: #7B7B7B;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding-top: 4px;
+      }
+      .fa-youtube{
+      color:#9C9C9C;
+      background-color: #757575;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding-top: 4px;
+      }
 
 }
+    }
+    .form{
+      @include span-columns(6 of 12);
+      // @include omega();
+      margin-top:20px;
+
+      input{
+        width: 487px;
+        display: block;
+        margin-left: -6px;;
+        height: 32px;
+        font-size: 13px;
+        padding-left: 30px;
+        margin-bottom: 5px;
+
+        }
+        textarea{
+        width: 487px;
+        display: block;
+        margin-left: -6px;
+        height: 94px;
+        font-size: 13px;
+        padding-left: 30px;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+        color:#A9A9A9;
+        border-color: #BFBFBF;
+        height:30px;
+        outline: none;
+        overflow: hidden;
+        resize: none;
+        padding-bottom: 104px;
+        padding-top:10px;
+      }
+    #submit{
+
+      background-color: #B4292E;
+      width:200px;
+      margin: 40px 0 40px 281px;
+      text-align: center;
+      padding-left:13px;
+      text-transform: uppercase;
+      border: none;
+      color:#fff;
+
+
+    }
+          }
