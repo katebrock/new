@@ -227,13 +227,18 @@ header{
         //skateboards//
     .skateboards{
       @include span-columns(12);
-      background-color: #fff;
+      background-color: #ffffff;
       margin-top:30px;
 
       padding: 10px 0 10px 0;
 
       img{
         margin-left: 39px;
+        &:hover{
+          transform: rotate(180deg);
+          transform-origin: center;
+          transition: transform 1s ease, border 1s ease;
+        }
       }
     }
 

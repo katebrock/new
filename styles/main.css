@@ -289,13 +289,17 @@ header {
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  background-color: #fff;
+  background-color: #ffffff;
   margin-top: 30px;
   padding: 10px 0 10px 0; }
   .skateboards:last-child {
     margin-right: 0; }
   .skateboards img {
     margin-left: 39px; }
+    .skateboards img:hover {
+      transform: rotate(180deg);
+      transform-origin: center;
+      transition: transform 1s ease, border 1s ease; }
 
 footer {
   float: left;
